@@ -1,19 +1,19 @@
 // Search of element
 function searchElem(arr) {
-    let requiredElem = 90;  
-    let initialElem = [];
+    let requiredElem = 5;  
+    let initialElem = null;
     let flag = false;
   
     for (let i = 0; i < arr.length; i++) {
       if (arr[i] === requiredElem) {
-        initialElem += arr[i];
+        initialElem = arr[i];
         flag = true;
         break;  
       }
     }
   
     if (!flag) {
-      console.log("Element is not found");
+     return "Element is not found";
       
       
     }
@@ -27,6 +27,9 @@ function searchElem(arr) {
   
 
 
+
+
+  
 
 
 
