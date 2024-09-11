@@ -1,3 +1,14 @@
+// Duplicate Elements in an Array
+/*1.create a array variable
+2. create a function to find duplicate elements
+3. iterate over the array and compare each element with the rest of the array
+4. if an element is found to be duplicated, add it to the duplicateElem array and set flag to true
+5. if no duplicate elements are found, return "No duplicate elements found"
+*/
+
+
+
+
 function duplicateElements(arr) {
   let duplicateElem = [];
   let flag = false;

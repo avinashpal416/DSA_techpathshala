@@ -1,3 +1,13 @@
+/*Find Missing Element of one element
+1.Calculate the expected sum of elements by using the formula (x*(x+1))/2
+2.Initialize three variable - for original length of array, expectedSum, actualSum
+3.Now calculate the actual sum by creating a loop over an array and storing the actual sum in a variable
+4.return expectedSum - actualSum
+5.If it finds the missing element then it will return the output or else it will console with the message of "No missing elements found"
+*/
+
+
+
 // Find missing element in an array
 function missingElem(arr){
     let n = arr.length+1;

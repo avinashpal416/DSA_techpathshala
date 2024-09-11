@@ -1,3 +1,11 @@
+/*Steps:
+Anagram
+1. store the given anagram to String
+2.convert the given string to toLowerCase
+3.create two empty objects
+4. iterate over the string and for each character, increment its value in the object if it exists, otherwise add it with a value of 1
+5. compare the two objects. If they are equal, the strings are anagrams, otherwise not.
+*/
 
 // Anagram
 
