@@ -8,7 +8,6 @@
 
 
 
-
 function duplicateElements(arr) {
   let duplicateElem = [];
   let flag = false;
@@ -23,7 +22,7 @@ function duplicateElements(arr) {
         }
       }
     }
-    if ((duplicateElem.length = 0)) {
+    if ((duplicateElem.length == 0)) {
       return "No duplicate elements found";
     }
   }
